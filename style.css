@@ -1,12 +1,51 @@
-*{
-    margin: 0;
-    padding: 0;
+
+body{
+    border-top: 15px solid green;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.container{
+    border: 5px solid rgba(226, 226, 226, 0.067);
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: rgba(226, 226, 226, 0.067);
+}
+
+.personal h2{
+    text-decoration: green;
 }
 
 .personal{
-    
+    text-align: left;
+    width: 300px;
+    padding-bottom: 1em;
+}
+
+.skills h2{
+    text-decoration: green underline;
+}
+
+.skills{
+    padding-bottom: 1em;
+}
+
+.experience h2{
+    text-decoration: green underline;
 }
 
 .experience{
-    
+    padding-bottom: 1em;
+}
+
+.education h2{
+    text-decoration: green underline;
+}
+
+.education{
+    padding-bottom: 1em;
+}
+
+.education h3{
+    font-size: 10px;
 }
